@@ -31,7 +31,6 @@
                 echo "los comentarios multilinea no permiten que me veas";
                 echo "los comentarios multilina tampoco permiten que tu me veas"; 
             */
-
     ?>
 </body>
 </html>
