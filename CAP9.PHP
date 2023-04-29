@@ -41,6 +41,8 @@
         #Ejemplo Número 1: Usaremos un dato de tipo integer para este primer ejemplo:
         $Int = 10;
             var_dump($Int);
+        $Int2 =18;
+            var_dump($Int2);
 
         #Ejemplo Número 2: Usaremso un dato de tipo float o decimal para este segundo ejemplo:
         $Flo = 10.5;
