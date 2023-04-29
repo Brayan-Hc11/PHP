@@ -47,6 +47,8 @@
         #Ejemplo Número 2: Usaremso un dato de tipo float o decimal para este segundo ejemplo:
         $Flo = 10.5;
             var_dump($Flo);
+        $FLo2 = 11.5;
+            var_dump($Flo2);
         #Ejemplo Número 3: Usaremos un dato de tipo binario para este ejemplo.
         $Bin = 0b10;
             var_dump($Bin);#para los números binarios es necesario utilizar el prefijo de 0b
