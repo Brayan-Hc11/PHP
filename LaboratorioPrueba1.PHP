@@ -17,11 +17,13 @@
                 Multiplicación
                 Divición
             2.Debe contener
+
                 Variables
                 Constantes
                 Comentarios
                 Funciones de strign
             3.Debe de ser presentable y funcional.
+
             4.Se bede evidenciar
                 Ubicación de PHP 
                 Variables 
@@ -32,7 +34,6 @@
                 Funciones de string (Cualquiera minimo 2)
                 datos númericos 
                 constanes
-
     -->
     <body>
         <?php
