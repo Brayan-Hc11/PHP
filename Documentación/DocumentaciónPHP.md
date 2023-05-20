@@ -63,6 +63,7 @@ Para poder declarar una variable en PHP es indispensanble es uso del simbolo de 
     
  // Uso de las primeras variables casesensitive upplecamelcase 
     $PrimeraVaraible = "Mi primera variable en PHP";
+
 // Escritura en upplecamelcase
     $primeravariable = "Mi primera variable en php";
     
@@ -72,3 +73,35 @@ Para poder declarar una variable en PHP es indispensanble es uso del simbolo de 
 ~~~
 
 En este ejemplo hemos declarado dos variables con una diferencia entre ellas, la declaración de varibles se estructuro en los metodos de [upplecamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") y [lowercamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") para poder hacer estas variables casesensitive
+
+Para poder imprimir el contenido que se haya en las varibles escribirimos un Echo por cada una de las variables, ya que queremos que nos imprima el contenido por partes separadas.
+
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chaset ="UTF-8">
+
+<title>Declaración de variables </title>
+
+<body>
+  <?php 
+    
+ // Uso de las primeras variables casesensitive upplecamelcase 
+    $PrimeraVaraible = "Mi primera variable en PHP";
+
+// Escritura en upplecamelcase
+    $primeravariable = "Mi primera variable en php";
+
+// Imprimimos las variables en pantalla
+  Echo  $PrimeraVaraible;
+  Echo  $primeravariable;
+    
+</body>
+
+</html>
+~~~
+
+El orden de los Echo modifica el orden en que queremos visualizar el dato de las variables. dependiendo del orden de los Echo veremos el contenido de las variables en distintas lineas.
+
+[Declaración de variables](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP2Variables.php "Ejercicio dos ")
