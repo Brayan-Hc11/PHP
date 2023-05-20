@@ -42,7 +42,7 @@ Como primer ejercicio de PHP, generaremos nuestro "Hola mundo" en PHP, completam
 </html>
 ~~~
 
-[Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/index.php "Ubicación de php")
+[Material de apoyo: Imprimiendo Un Hola mundo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/index.php "Ubicación de php")
 
 ## Segundo ejercicio (Uso de variables)
 
@@ -104,4 +104,4 @@ Para poder imprimir el contenido que se haya en las varibles escribirimos un Ech
 
 El orden de los Echo modifica el orden en que queremos visualizar el dato de las variables. dependiendo del orden de los Echo veremos el contenido de las variables en distintas lineas.
 
-[Declaración de variables](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP2Variables.php "Ejercicio dos ")
+[Material de apoyo: Declaración de variables](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP2Variables.php "Ejercicio dos ")
