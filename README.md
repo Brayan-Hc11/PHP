@@ -28,4 +28,4 @@ Lo mejor de utilizar PHP es su extrema simplicidad para el principiante, pero a 
 
 Aunque el desarrollo de PHP está centrado en la programación de scripts del lado del servidor, se puede utilizar para muchas otras cosas. Siga leyendo y descubra más en la sección ¿Qué puede hacer PHP?.
 
-[Fuente de información](https://www.php.net/manual/es/intro-whatcando.php"Documentación PHP ")
+[Fuente de información](https://www.php.net/manual/es/intro-whatcando.php "Documentación PHP ")
