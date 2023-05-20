@@ -41,4 +41,5 @@ Como primer ejercicio de PHP, generaremos nuestro "Hola mundo" en PHP, completam
 
 </html>
 ~~~
-[Ejercicio 1]( https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/index.php"Ubicación de php")
+
+[ejercicio1](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/index.php "Ubicación de php")
