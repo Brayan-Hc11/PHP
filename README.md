@@ -16,7 +16,6 @@ PHP (acrónimo recursivo de PHP: HyperText Preprocessor) es un laenguaje de cód
   echo "¡Hola, soy un script de PHP!";
 <?
 
-
 </body>
 </html>
 ~~~
