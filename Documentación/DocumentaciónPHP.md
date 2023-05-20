@@ -72,7 +72,7 @@ Para poder declarar una variable en PHP es indispensanble es uso del simbolo de 
 </html>
 ~~~
 
-En este ejemplo hemos declarado dos variables con una diferencia entre ellas, la declaración de varibles se estructuro en los metodos de [upplecamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") y [lowercamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") para poder hacer estas variables casesensitive
+En este ejemplo hemos declarado dos variables con una diferencia entre ellas, la declaración de varibles se estructuro en los metodos de [upplecamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") y [lowercamelcase](https://www.neoguias.com/tipos-notacion-nombres/#Camel_Case_contarElementos "camelCase") para poder declarar las variables casesensitive
 
 Para poder imprimir el contenido que se haya en las varibles escribirimos un Echo por cada una de las variables, ya que queremos que nos imprima el contenido por partes separadas.
 
