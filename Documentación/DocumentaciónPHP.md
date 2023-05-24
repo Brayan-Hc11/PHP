@@ -97,16 +97,17 @@ La concatenación nos permite unir diferentes datos de variables con el fin de q
 
 _Ejemplo:_
 ~~~
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset ="UTF-8">
-  <title>El uso de la concatenación en PHP</title>
+    <title>El uso de la concatenación en PHP</title>
+  </head>
 
   <body>
     <?php
       $Primer = "Este es el primer texto, ";
-      $Segundo = "Este es el sugundo texto, "
+      $Segundo = "Este es el sugundo texto, ";
       $Tercer = "y este es el tercer texto.";
 
   Echo $Priemer.$Segudo.$Tercer;
@@ -114,9 +115,27 @@ _Ejemplo:_
   </body>
   </html>
 ~~~
+[material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP3.PHP)
 
+## El uso de los comentarios en PHP 
 
+Los somentarios en PHP nos funcionan para poder comentar la función que realiza cada una de las partes del código, con el fin de cuando editemos el programa en un futuro lo podamos hacer mucho mas facil, si alguien mas va a editar nuestro código puede guiarse de los comentarios  para poder realizar estas ediciones y dejarlas comentadas. otra función muy importante de los comentarios es que nos permiten anular lineas de código con el fin de ser ignoradas por el navegador, existen dos tipos de comentarios en programación.
 
+- Comentarios de primera linea: estos comentarios solo ocupan una linea de código, no se pueden estender demaciado ya que solo estan limitado a una sola linea, la ubicación de este comentario puede realizarse al final de la instrucción o encima de esta, pero si queremos que el navegador ignore esta instruccion lo unico que haremos es ubicar el comentario al pricipio o detras de la instrucción, para realizar un comentario de una sola linea escribimos (//) para iniciar el  comentario y para finalizar el comentario solo saltamos a la siguiente linea.
+
+_Ejemplo:_
+~~~
+//Ubicamos el comentario de una sola linea por encima de la instrucción (no afecta a la instrucción)
+
+$Variable "variable para el ejemplo";
+  Echo $Variable;
+  
+$Variable2 "Variable para el ejemplo 2 ";//Ubicamos el comentario al final de la instrucción (No afecta a la instrucción)
+  Echo $Variable;
+  
+//Ubicamos el comentario al inicio de la instrucción (Si afecta a la Instrucción) $Variable3 "Variable de ejemplo";
+  Echo $Variable3; // esto ocacionara un error de inicialización ya que no para el navegador no esxite la variable
+~~~
 
 
 
