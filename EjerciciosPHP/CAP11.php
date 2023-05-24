@@ -65,7 +65,7 @@
             Echo "El resultado final es: ", $Num_Min,"\n";
             Echo "El resultado final es: ",$Num_MIN,"\n";
          
-        /*calcular el area de un circulo con la finción de pi()*/
+        /*calcular el area de un circulo con la función de pi()*/
         
         define ("PI", PI()); 
         $radio = 2;
