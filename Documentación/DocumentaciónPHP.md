@@ -9,16 +9,15 @@
   - Funciones de Srtings 
   - Datos numéricos
   
-  
-# Primeros pasos en PHP
+# Etiquetas PHP
 
-Para poder generar nuestros primeros Scripts generaremos un documeto HTML, en donde agragaremos el código PHP, para incluir el código de PHP dentro de HTML es necesario usar sus etiquetas de apertura _(<?php)_ y cierre _(<?)_.
+Cuando PHP analiza un fichero, busca las etiquetas de apertura y cierre, que son <?php y ?>, y que indican a PHP dónde empezar y finalizar la interpretación del código. Este mecanismo permite embeber a PHP en todo tipo de documentos, ya que todo lo que esté fuera de las etiquetas de apertura y cierre de PHP será ignorado por el analizador.Para poder generar nuestros primeros Scripts generaremos un documeto HTML, en donde agragaremos el código PHP, para incluir el código de PHP dentro de HTML es necesario usar sus etiquetas de apertura _(<?php y <?)_ apertura y cierre respectivamente.
 
-## Primer ejercicio (Hola mundo)
+## Ubicaciones del código PHP
 
-Como primer ejercicio de PHP, generaremos nuestro "Hola mundo" en PHP, completamente funcional. Para esto escribiremos una estructura de HTML en donde incluiremos el código PHP en distintas ubicaiones en la que se puede definir el espacio de PHP dentro de HTML.
+Para poder ejecutar un fichero de PHP es necesario heberlo incluido antes en una estructura de HTML. Como primer ejercicio de PHP, generaremos nuestro "Hola mundo" en PHP, completamente funcional. Para esto escribiremos una estructura de HTML en donde incluiremos el código PHP en distintas ubicaiones en la que se puede definir el espacio de PHP dentro de HTML para su correcto funcionamiento. Podemos ubicar el código de PHP en dos pociciones dentro de HTML, 
 
-- podemos ubicar el código de PHP en dos pociciones dentro de HTML, la primero ubicación es el *head* 
+- La primera ubicación que piodemos usar dentro de HTML es en el *Head*, si el código se lee de arriba hacia abajo 
 
 ~~~
 <!DOCTYPE html>
