@@ -51,6 +51,8 @@
 
         Ejercicio 
     Calcular el area de un circulo usando la función PI
+
+Formula para hallar el area Pi* r2
 -->
 
     <body>
