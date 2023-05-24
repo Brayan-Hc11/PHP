@@ -89,8 +89,13 @@ Para este ejemplo Declararemos variables a traves del método de escritura Case 
 
 </html>
 ~~~
-
 [Material de apoyo: Declaración de variables](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP2Variables.php "Ejercicio dos ")
+
+## Uso de la concatenación en PHP
+
+La concatenación nos permite unir diferentes datos de variables con el fin de que se muestren en una sola linea o un solo dato. La concatenación la realizamos a través del echo y darle el orden que mas nos guste o nos convenga  a la hora de imprimirlo en pantalla, la concatenación solo se realiza a traves de un (.) o (,) en el caso de print. 
+
+
 
 
 
