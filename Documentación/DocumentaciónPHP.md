@@ -1,3 +1,15 @@
+# Temario del curso
+  - Ubicación del código PHP
+  - Declaración de Variables
+  - El Uso de la concatenación en PHP
+  - El Uso de los comentarios en PHP
+  - Los saltos de lineas en PHP
+  - El uso de print en PHP
+  - Tipos de datos en PHP
+  - Funciones de Srtings 
+  - Datos numéricos
+  
+  
 # Primeros pasos en PHP
 
 Para poder generar nuestros primeros Scripts generaremos un documeto HTML, en donde agragaremos el código PHP, para incluir el código de PHP dentro de HTML es necesario usar sus etiquetas de apertura _(<?php)_ y cierre _(<?)_.
