@@ -117,7 +117,7 @@ _Ejemplo:_
 ~~~
 
 ---
-[material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP3.PHP)
+[material de apoyo:El uso de la concatenación](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP3.PHP)
 
 ## El uso de los comentarios en PHP 
 
@@ -182,7 +182,7 @@ _Ejemplo:_
   </body>
   </html>
 ~~~
-[Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP5.PHP)
+[Material de apoyo:saltos de linea ](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP5.PHP)
 
 
 
