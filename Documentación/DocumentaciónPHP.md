@@ -157,10 +157,32 @@ El navegador no ha podido ejecutar el archivo o programa ya que el comentario mu
 ~~~
 [material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP4.PHP)
 
+## Los saltos de linea en PHP
 
+Los saltos de linea nos permiten separar o ditribuir la información en distintas lineas de código, esto con el fin de poder hacer el código mucho mas enetndible y ordenado, para poder realizar un salto de linea podemos usar la eiqueta de br de HTML que nos permite realizar estos saltos de linea o tambien podemo hacer uso de la (\) y seguio la letra N tal que asi (\n)  
 
+_Ejemplo:_
 
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="UTF-8">
+    <title>El uso de la concatenación en PHP y saltos de lineas HTML</title>
+  </head>
 
+  <body>
+    <?php
+      $Primer = "Este es el primer texto, <br>";
+      $Segundo = "Este es el sugundo texto,<br> ";
+      $Tercer = "y este es el tercer texto.<br>";
+
+  Echo $Priemer.$Segudo.$Tercer;
+     ?>
+  </body>
+  </html>
+~~~
+[Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP5.PHP)
 
 
 
