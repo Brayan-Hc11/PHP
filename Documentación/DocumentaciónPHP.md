@@ -1,4 +1,11 @@
-# Temario del curso
+# Introducción a PHP 
+Antes de continuar se debe de tener una compresión bácica de lo siguiente:
+- [HTML](https://github.com/Brayan-Hc11/HTML5)
+- CSS
+- JavaScript
+S desea aprender algunos de estos temas, pude revisar mis algunos de mis repositorios en donde podrá encontrar lo fundamental del desarrollo web
+
+## Temario del curso
   - Ubicación del código PHP
   - Declaración de Variables
   - El Uso de la concatenación en PHP
