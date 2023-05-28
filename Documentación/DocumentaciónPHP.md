@@ -53,8 +53,40 @@ No necesita compilar nada ni instalar ninguna herramienta adicional. Debido a qu
 
 ## Configure PHP en su propia PC 
 
-S
+Sin embargo, si su navegador no es compatible con PHP,debe:
+- instalar un servidor web que soporte PHP
+- instalar PHP
+- instalar una base de datos, como MySQL
 
+El sitio web oficial de [PHP.NET](https://www.php.net/) tiene instrucciones de instalación para PHP en su [ManualInstall]( http://php.net/manual/en/install.php). otra opción que puede usar es un compilador en línea.
+
+## Sintaxis PHP
+
+Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se envía de vuelta al navegador. Un Script se puede colocar en cualquier parte del documento, Un Script PHP comienza   _(<?php y termian en <?)_
+~~~
+<?php 
+// php code goes here
+?>
+~~~
+
+La extención predeterminada para los archivos PHP es ".php". Un archivo PHP normalmente contiene etiquetas HTML y algún código de secuensias de comandos PHP.
+
+A continuación, tenemos un ejemplo de un archivo PHP simple, con un script PHP que utiliza una función PHP integrada "Echo" para generar el texto "Hello World!" en una páguina web:
+~~~
+<!DOCTYPE htmo>
+<hmtl>
+  <body>
+    <h1> My first PHP page<h1>
+     
+      <?php 
+          Echo "Hello World!";
+      ?>
+      
+  </body>      
+</html>
+~~~
+Note: _las declaciones en PHP deben de terminar en ;._
+    
 ## Temario del curso
   - Ubicación del código PHP
   - Declaración de Variables
