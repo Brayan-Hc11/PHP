@@ -28,8 +28,32 @@ Los archivos PHP pueden contener texto, HTML, CSS, JavaScript y código PHP. El 
 Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF. También puede generar culaquier texto, como [XHTML](https://books.google.cl/books?hl=es&lr=&id=aaa6EAAAQBAJ&oi=fnd&pg=PA1&dq=Que+es+XHTML+&ots=dpvIvfdlm6&sig=jLY4kEWVofozaOsoWCCt_SFvlDg#v=onepage&q=Que%20es%20XHTML&f=false) y [XMl](https://www.google.com.co/books/edition/XML_pr%C3%A1ctico/x6QToh9wHMYC?hl=es&gbpv=1&dq=Que+es+XML&printsec=frontcover).
 
 ## ¿Por qué PHP?
-- PHP se ejecuta en varias platatoformas _(Windows, Linux, Unix, Mac Os)
-- 
+- PHP se ejecuta en varias platatoformas _(Windows, Linux, Unix, Mac Os x, etc...)_
+- PHP soporta una amplia gama de base de datos
+- PHP es gratis, y puedes descargarlo en [PHP.NET](https://www.php.net/)
+- PHP es fácil de aprender y se ejecuta de manera efciente en el lado del servidor
+
+## ¿Qué hay de nuevo en PHP 7?
+- PHP 7 es mucho más rápido que la popular versión de estable anterios (PHP 5.6)
+- PHP 7 he mejorado el manejo de los errores 
+- PHP 7 admite declaraciones de tipo más estrictas para argumentos de función
+- PHP 7 admite nuevos operadores
+
+## ¿Qué necesito?
+
+para comenzar a usar PHP, puede:
+- Encuentre un servidor web con soporte para PHP y MySQL (Xamm)
+- instale un servidor web en su propia PC y luego instale PHP y MySQL
+
+## Use un servidor web con soporte PHP
+
+Si su servidor tiene activado el soporte para PHP no es necesario que realice alguna acción. Simplemente cree algunos *.PHP* archivos,colóquelos en su directorio web y el servidor los analizará automáticamente.
+
+No necesita compilar nada ni instalar ninguna herramienta adicional. Debido a que PHP es gratuito, la mayoria de los servidores web ofrecen soporte para PHP.
+
+## Configure PHP en su propia PC 
+
+S
 
 ## Temario del curso
   - Ubicación del código PHP
@@ -218,8 +242,8 @@ _Ejemplo:_
 [Material de apoyo:saltos de linea ](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP5.PHP)
 
 
-
-
-
-
-
+[infografia](https://www.w3schools.com/php/php_intro.asp)
+[infografia](https://www.php.net/manual/es/tutorial.php)
+[infografia]()
+[infografia]()
+[infografia]()
