@@ -15,6 +15,16 @@ PHP es un lenguaje sorprendete y pupular, PHP es lo suficientemente potente para
 
 ## ¿Qué es un archivo PHP?
 
+Los archivos PHP pueden contener texto, HTML, CSS, JavaScript y código PHP. El código PHP se ejecuta en el servidor y el resultado se devuelve al navegador como HTML simple, los archivos PHP tienen la extención _".PHP"_
+
+## ¿Qué puede hacer PHP?
+- PHP puede generar contenido de página dinámico
+- PHP puede crear, abir, leer, escribir, eliminar y cerrar archivos en el servidor
+- PHP puede recopilar datos de formulario
+- PHP puede enviar y recibir cookies
+- PHP puede agregrar, eliminar, modificar datos en base de datos
+- PHP se puede usar para controlar el acceso de los usuarios  
+
 ## Temario del curso
   - Ubicación del código PHP
   - Declaración de Variables
