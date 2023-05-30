@@ -153,9 +153,92 @@ Para mejor explicación haremos un ejemplo más, a continuación; ¡solo la prim
 
 Un comentario en código PHP es una línea que no se ejecuta como parte del programa. Su único propósito es que alguien que esté mirando el código la lea.
     
-Los comentarios se puede utilizar     
+Los comentarios se puede utilizar para:
     
+- Deje que otros usuarios puedan entender su código
+- Recuerde que lo hizo
+- Los comentarios puden recordarte lo que estabas pensando cuando esribiste el código
+
+PHP nos permite varias formas de comentar:
+
+_Ejemplo:_
+
+Sintaxis para comentarios de una sola línea:
+
+~~~
+<!DOCTYPE html>
+    <html>
+      <body>
+        
+        <?php
+      //This is a single-line comment
+
+      #This is a single-line comment
+~~~
+
+_Ejemplo:_
+
+Sintaxis para comentarios de varias líneas:
+
+~~~
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <?php
+  /*
+  This is a multiple-lines comment block
+  that spans over multiple
+  lines
+  */
+    ?>
+        
+</html>
+</body>      
+~~~
+
+Nota: _los comentarios también nos permite omitir partes de códigos:
+    
+~~~
+<!DOCTYPTE html>
+<html>
+  <body>
+    
+    <?php 
+  //You can also use comments to leave out parts of a code line
+$x =/* +15*/ + 5;
+  
+  Echo: $x;
+    ?
+  
+  </body>
+</html>
+~~~  
+
+Si quiere ver mas ejemplos puede visitar el: [Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP4.PHP)
+
+## Variables en PHP
+
+Se puede decir que las variables en programación son "contenedores" los cuales nos permiten almacenar información.
+
+## Creación o declaración de variables en PHP 
+
+En PHP, una variable comienza con el signo $, seguido el nombre de la variable:
+
+_Ejemplo:_
+~~~
+<?php
+$text "Hello world!";
+$x = 5;
+$y =15.5; 
+
+  Echo $text."<br>";
+  Echo $x. "<br>";
+  Echo $y. "<br>";
+?>
+~~~
 
 
 [infografia](https://www.w3schools.com/php/php_intro.asp)
+    
 [infografia](https://www.php.net/manual/es/tutorial.php)
