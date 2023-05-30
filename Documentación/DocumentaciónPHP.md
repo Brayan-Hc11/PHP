@@ -174,6 +174,9 @@ Sintaxis para comentarios de una sola línea:
       //This is a single-line comment
 
       #This is a single-line comment
+        ?>
+      </body>
+     </hmtl>
 ~~~
 
 _Ejemplo:_
