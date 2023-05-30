@@ -1,25 +1,25 @@
 # Ruta de aprendiaje PHP
 
--PHP INICIO
--Introducción PHP
--Instalación de PHP
--Sintaxis PHP
--Comentarios PHP
--Variables PHP
--PHP Echo / Imprimir
-Tipos de datos PHP
--Cadenas PHP
--Números PHP
--Matemáticas PHP
--Constantes PHP
--Operadores PHP
--PHP Si... Más... Elseif
--Cambio de PHP
--Bucles de PHP
--Funciones PHP
--Matrices de PHP
--Superglobales de PHP
--PHP expresión regular
+- PHP INICIO
+- Introducción PHP
+- Instalación de PHP
+- Sintaxis PHP
+- Comentarios PHP
+- Variables PHP
+- PHP Echo / Imprimir
+- Tipos de datos PHP
+- Cadenas PHP
+- Números PHP
+- Matemáticas PHP
+- Constantes PHP
+- Operadores PHP
+- PHP Si... Más... Elseif
+- Cambio de PHP
+- Bucles de PHP
+- Funciones PHP
+- Matrices de PHP
+- Superglobales de PHP
+- PHP expresión regular
 
 Antes de continuar se debe de tener una compresión bácica de lo siguiente:
 - [HTML](https://github.com/Brayan-Hc11/HTML5)
