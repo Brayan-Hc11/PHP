@@ -87,7 +87,9 @@ El sitio web oficial de [PHP.NET](https://www.php.net/) tiene instrucciones de i
 Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se envía de vuelta al navegador. Un Script se puede colocar en cualquier parte del documento, Un Script PHP comienza   _(<?php y termian en <?)_
 ~~~
 <?php 
-// php code goes here
+
+  // php code goes here
+
 ?>
 ~~~
 
@@ -120,9 +122,9 @@ En la siguiente ejemplo, las tres declaraciones de Echo son igules y legales:
       <body>
         
         <?php 
-        ECHO "Hello Wordl!<br>";
-        echo "Hello Wordl!<br>"
-        EcHo "Hello Wordl!<br>"
+          ECHO "Hello Wordl!<br>";
+          echo "Hello Wordl!<br>"
+          EcHo "Hello Wordl!<br>"
         ?>
         
       </body>
