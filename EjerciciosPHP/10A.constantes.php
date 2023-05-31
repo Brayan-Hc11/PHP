@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Las constantes </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-<!--
+    <body>
+        <!--
      Las constantes en php,  las constantes en php son contenedores como las variables pero la diferencia fundamental es que las constantes 
     almacenan un valor que no va poder ser cambiado durante la ejecución del Scring, las constantes las definiremos una vez y mientrás se 
     este ejucutando dicho código no van a poder ser modificadas, para las constantes usaremos la palabra reservada define() es una función 
@@ -44,8 +39,6 @@
     define ("Texto","Uso del valor booleano",False); EL valor de true no puede ser ejecutado ya que nos imprimira un warning    
 
 -->
-
-    <body>
         <?php
         #Primera constante
     define ("PI" ,3.141593);#Con var_dump() Podemos ver el contenido que se haya en la constante
