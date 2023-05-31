@@ -57,7 +57,7 @@ Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF
 - PHP se ejecuta en varias platatoformas _(Windows, Linux, Unix, Mac Os x, etc...)_
 - PHP soporta una amplia gama de base de datos
 - PHP es gratis, y puedes descargarlo en [PHP.NET](https://www.php.net/)
-- PHP es fácil de aprender y se ejecuta de manera efciente en el lado del servidor
+- PHP es fácil de aprender y se ejecuta de manera eficiente en el lado del servidor
 
 ***
 ## ¿Qué hay de nuevo en PHP 7?
