@@ -253,7 +253,7 @@ $y = 15.5;
 
 Después de la ejecución de la instrucciones anteriores, la variable $txt contendrá el valor de Hello world!, la variable $x contendrá el valor de 5 y la variable $y contendrá el valor de 15.5.
 
-Nota: _Cuado asigne un valor de texto a una variable, coloque comillas alrededor del valor._
+Nota: _Cuando asigne un valor de texto a una variable, coloque comillas alrededor del valor._
 
 Nota: _a diferencia  de oros lenguajes de programación,PHP no tiene ningún comando para declarar una variable. Se crea en el momento en que le adigna un valor por prinera vez.
 
