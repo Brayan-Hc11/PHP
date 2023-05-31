@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Funciones de Strings</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <!--
+    <body>
+        <!--
         Estaremos probando las diferentes funciones de Strings que nos permiten ver interacciones interesantes en las cadenas 
         de caracteres que elijamos.
 
@@ -53,11 +47,7 @@
                 Ejemplo:
             $Texto5 =chunk_split ("Esto es un String con espacios intermitentes",2);
                 Echo $Texto5;
-
-
     -->
-
-    <body>
         <?php
         # Usando la función de strrev que nos permite invertir el string que se ubica al  interior de un parentesis
             $Texto0 = strrev("Esto es un texto invertido.");
