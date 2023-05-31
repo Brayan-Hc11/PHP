@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>datos numericos </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <!--
+    <body>
+        <!--
         Los distintos tipos de datos númericos que podemos encontrar en php, ya sabemos que tipo de datos númericos existen pero que pasa
         cuando queremos imprimir el valor del tipo de dato que se encuentra en una variable para eso usaremos el comado de var_dump que 
         sera capaz de imprimir el tipo de valor que le asignamos a la variable.
@@ -36,7 +31,6 @@
 
     -->
 
-    <body>
         <?php
         #Ejemplo Número 1: Usaremos un dato de tipo integer para este primer ejemplo:
         $Int = 10;
