@@ -255,7 +255,7 @@ Después de la ejecución de la instrucciones anteriores, la variable $txt conte
 
 Nota: _Cuando asigne un valor de texto a una variable, coloque comillas alrededor del valor._
 
-Nota: _a diferencia  de oros lenguajes de programación,PHP no tiene ningún comando para declarar una variable. Se crea en el momento en que le adigna un valor por prinera vez.
+Nota: _a diferencia  de otros lenguajes de programación,PHP no tiene ningún comando para declarar una variable. Se crea en el momento en que le asigna un valor por primera vez._
 
 ***
 ## Variables PHP     
