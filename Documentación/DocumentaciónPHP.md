@@ -326,7 +326,16 @@ _Ejemplo:_
       ?>
 ~~~
 Nota: _Aprenderá más sobre la echo declaración y cómo enviar datos a la pantalla más adelante._ 
-    
+
+## PHP es un lenguaje escrito libremente
+
+En el ejmplo anterior, observe que no tuvimos que decirle a PHP qué tipo de datos se almacenarón en las variables.
+
+PHP asocia autimáticamente un tipo de dato a la variable, dependiendo de su valor. Dado que los tipos de datos no se establecen en un sentido estricto, puede hacer cosas como agregar una cadena a un número entero sin causar un error.
+
+En PHP 7, se agregaron declaraciones de tipo. Esto brinda una opción para especificar el tipo esperado al declarar una función, y al habilitar el requisito estricto, arrojará un "Error fatal" en una falta de coincidencia de tipo.
+
+Aprenderá más sobre Strict los non-Strict requisitos y las declaraciones de tipos de datos en el apartado de funciones de PHP.
     
     
     
