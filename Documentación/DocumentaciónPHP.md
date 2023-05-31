@@ -120,7 +120,7 @@ Note: _las declaraciones en PHP deben de terminar en ;._
 
 ***
 ## Sencibilidad de mayúsculas y minúsculas de PHP 
-En, PHP, las palabras clave (P.ej:if, else, while, echo etc...), clases, funciones y funciones definidas por le usuario no distiguen entre mayúsculas y minúsculas.
+En, PHP, las palabras clave (P.ej:if, else, while, echo etc...), clases, funciones y funciones definidas por el usuario no distiguen entre mayúsculas y minúsculas.
     
 En la siguiente ejemplo, las tres declaraciones de Echo son igules y legales:
  ~~~
