@@ -92,7 +92,6 @@ Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se enví
 
 ?>
 ~~~
-
 La extención predeterminada para los archivos PHP es ".php". Un archivo PHP normalmente contiene etiquetas HTML y algún código de secuensias de comandos PHP.
 
 A continuación, tenemos un ejemplo de un archivo PHP simple, con un script PHP que utiliza una función PHP integrada "Echo" para generar el texto "Hello World!" en una páguina web:
