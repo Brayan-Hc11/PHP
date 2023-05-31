@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Las funciones matemáticas max(), min() y pi()</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <body>
+        
 <!--
     Las funciones matemáticas  max(), min() y pi() dentro de php. Estas funciones matemáticas nos permiten ubicar o localizar un caracter deteminado 
     dentro de una serie determinada de caracteres numericos
@@ -55,7 +51,6 @@
 Formula para hallar el area Pi* r2 o PI *radio *radio
 -->
 
-    <body>
         <?php
 
         $Num_Max = Max(100, 50 ,20 ,36 ,90 ,48);
