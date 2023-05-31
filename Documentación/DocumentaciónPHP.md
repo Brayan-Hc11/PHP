@@ -259,11 +259,11 @@ Nota: _a diferencia  de otros lenguajes de programación,PHP no tiene ningún co
 
 ***
 ## Variables PHP     
-Una variable puede tener un nombre corto (como x e y) o un mobre más descriptivo (edad,nombre del coche,volumen_total).
+Una variable puede tener un nombre corto (como x e y) o un nombre más descriptivo (edad, nombre del coche, volumen_total, etc..).
     
 Reglas para declarar variables en PHP
 - Una variable comienza con el signo $, seguido del nombre de la variable
-- Un nombre de variable debe comenzar con una letra o el carácter de subratado
+- Un nombre de variable debe comenzar con una letra o el carácter de subrayado
 - Un nombre de variable no pude comenzar con un número
 - Un nombre de variable solo puede contener caracteres alfanuméricos y guiones bajos (Az, 0-9 y _)
 - Los nombre de las variables distinguen entre mayúsculas y minúsculas ($age y $AGE son dos variables diferentes)
@@ -275,7 +275,7 @@ Nota: _¡Recuerde que los nombres de las variables de PHP distinguen entre mayú
 
 La echo declaración de PHP se usa a menudo para enviar datos a la pantalla.
     
-El siguiente ejempli mostrarpa cómo generar texto y una variable:
+El siguiente ejemplo mostrará cómo generar texto y una variable:
 
 _Ejemplo;_
 ~~~
@@ -287,7 +287,7 @@ _Ejemplo;_
     ?>
 ~~~
     
-El siguient ejemplo producirá el mismo resultado que el ejemplo anterior:
+El siguiente ejemplo producirá el mismo resultado que el ejemplo anterior, con la direfencia de que usaremos la concatenación:
 
 _Ejemplo;_
 ~~~
@@ -311,6 +311,8 @@ _Ejemplo:_
     
     ?>
 ~~~
+
+El siguiente ejemplo producirá el mismo resultado que el ejemplo anterior, con la diferencia de que declararemos una variable adicional, en la que se almacenara la opercón a realizar:
 
 _Ejemplo:_
 ~~~
