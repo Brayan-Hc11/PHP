@@ -201,7 +201,7 @@ Sintaxis para comentarios de varias líneas:
 </body>      
 ~~~
 
-Nota: _los comentarios también nos permite omitir partes de códigos:
+Nota: _los comentarios también nos permite omitir partes de códigos:_
     
 ~~~
 <!DOCTYPTE html>
