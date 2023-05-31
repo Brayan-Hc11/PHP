@@ -191,11 +191,11 @@ Sintaxis para comentarios de varias líneas:
   <body>
 
     <?php
-  /*
-  This is a multiple-lines comment block
-  that spans over multiple
-  lines
-  */
+    /*
+      This is a multiple-lines comment block
+      that spans over multiple
+      lines
+    */
     ?>
         
 </html>
