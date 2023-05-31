@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Las funciones sqrt(), pow(), rand() y abs() </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <!--
+    <body>
+        <!--
         Las funciones matematicas en PHP
 
         sqrt()
@@ -44,7 +39,6 @@
 
                 Echo "Este es el resultado de la converción: ". $abss."<br>";
     -->
-    <body>
         <?php
         # Función sqrt(), esta función nos permitirá obtener la raiz cuadrada de un número.
             $Número_cubo = 81;
