@@ -140,9 +140,9 @@ Para mejor explicación haremos un ejemplo más, a continuación; ¡solo la prim
         
         <?hp
         $color = "red";
-        Echo "My car is ". $color. "<br>";
-        Echo "My car is ". $coLOR. "<br>";
-        Echo "My car is ". $COLOR. "<br>";
+          Echo "My car is ". $color. "<br>";
+          Echo "My car is ". $coLOR. "<br>";
+          Echo "My car is ". $COLOR. "<br>";
         ?>
 
     </body>
