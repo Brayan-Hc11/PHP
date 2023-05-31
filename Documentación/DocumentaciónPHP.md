@@ -116,7 +116,7 @@ A continuación, tenemos un ejemplo de un archivo PHP simple, con un script PHP 
   </body>      
 </html>
 ~~~
-Note: _las declaciones en PHP deben de terminar en ;._
+Note: _las declaraciones en PHP deben de terminar en ;._
 
 ***
 ## Sencibilidad de mayúsculas y minúsculas de PHP 
