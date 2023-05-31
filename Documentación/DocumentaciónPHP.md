@@ -50,7 +50,7 @@ Los archivos PHP pueden contener texto, HTML, CSS, JavaScript y código PHP. El 
 - PHP puede agregrar, eliminar, modificar datos en base de datos
 - PHP se puede usar para controlar el acceso de los usuarios  
 
-Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF. También puede generar culaquier texto, como [XHTML](https://books.google.cl/books?hl=es&lr=&id=aaa6EAAAQBAJ&oi=fnd&pg=PA1&dq=Que+es+XHTML+&ots=dpvIvfdlm6&sig=jLY4kEWVofozaOsoWCCt_SFvlDg#v=onepage&q=Que%20es%20XHTML&f=false) y [XMl](https://www.google.com.co/books/edition/XML_pr%C3%A1ctico/x6QToh9wHMYC?hl=es&gbpv=1&dq=Que+es+XML&printsec=frontcover).
+Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF. También puede generar cualquier texto, como [XHTML](https://books.google.cl/books?hl=es&lr=&id=aaa6EAAAQBAJ&oi=fnd&pg=PA1&dq=Que+es+XHTML+&ots=dpvIvfdlm6&sig=jLY4kEWVofozaOsoWCCt_SFvlDg#v=onepage&q=Que%20es%20XHTML&f=false) y [XMl](https://www.google.com.co/books/edition/XML_pr%C3%A1ctico/x6QToh9wHMYC?hl=es&gbpv=1&dq=Que+es+XML&printsec=frontcover).
 
 ***
 ## ¿Por qué PHP?
