@@ -1,12 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El uso de la concatenación en php.</title>
-</head>
-<!--
+<html>
+    <body>
+        <!--
     Estaremos aprendiendo el uso de la concatenación en el lenguaje de php. Para poder usar la concatención en php
     estableceremos unas cuantas variables de strigs o de tipo texto.
 
@@ -39,7 +34,6 @@
             El contenido de las variable se mostrarán en el order en el que estemos indicandole en el comando de echo. 
 
 -->
-<body>
     <?php
 
     $TextoUno ="Estamos ";
@@ -47,9 +41,9 @@
     $TextoTres ="de la concatenación en PHP.";  
     //usaremos el echo para concatenar el contenido de las variables, y usaremos los puntos gramaticales para poder concatenar.
 
-    echo $TextoUno,$TextoDos,$TextoTres;//usamos los puntos gramaticales para poder concatenar el dato de las variables
+    echo $TextoUno.$TextoDos.$TextoTres;//usamos los puntos gramaticales para poder concatenar el dato de las variables
 
     ?>
     
-</body>
+    </body>
 </html>
