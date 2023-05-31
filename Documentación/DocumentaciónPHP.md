@@ -61,7 +61,7 @@ Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF
 
 ***
 ## ¿Qué hay de nuevo en PHP 7?
-- PHP 7 es mucho más rápido que la popular versión de estable anterios (PHP 5.6)
+- PHP 7 es mucho más rápido que la popular versión estable anterior (PHP 5.6)
 - PHP 7 he mejorado el manejo de los errores 
 - PHP 7 admite declaraciones de tipo más estrictas para argumentos de función
 - PHP 7 admite nuevos operadores
