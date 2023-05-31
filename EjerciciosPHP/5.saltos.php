@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Los saltos de linea</title>
-</head>
-<!--
+    <body>
+        <!--
     Los saltos en linea en php se pueden representar con una etiqueta de HTMl como <br> que nos funciona para hacer el salto de 
     linea entre las lineas, se escribe dentro del código php o también lo podemos usar en el echo para poder visualizar los 
     saltos de linea
@@ -31,8 +26,6 @@
         Echo $salto1M2."<br>".$salto2M2;
         
 -->
-
-<body>
     <?php
     # Ejemplo del metodo 1
 
