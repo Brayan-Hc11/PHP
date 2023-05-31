@@ -1,57 +1,357 @@
-# PHP <img src="https://w7.pngwing.com/pngs/21/535/png-transparent-php-computer-icons-wordpress-text-trademark-logo.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Php png imágenes | PNGWing" data-noaft="1" style="width: 33px; height: 33px; margin: 0px;">
+# Ruta de aprendiaje PHP
 
+- PHP INICIO
+- Introducción PHP
+- Instalación de PHP
+- Sintaxis PHP
+- Comentarios PHP
+- Variables PHP
+- PHP Echo / Imprimir
+- Tipos de datos PHP
+- Cadenas PHP
+- Números PHP
+- Matemáticas PHP
+- Constantes PHP
+- Operadores PHP
+- PHP Si... Más... Elseif
+- Cambio de PHP
+- Bucles de PHP
+- Funciones PHP
+- Matrices de PHP
+- Superglobales de PHP
+- PHP expresión regular
+
+Antes de continuar se debe de tener una compresión bácica de lo siguiente:
+- [HTML](https://github.com/Brayan-Hc11/HTML5)
+- [CSS](https://github.com/Brayan-Hc11/css3)
+- [JavaScript](https://github.com/Brayan-Hc11/JavaScript)
+
+Si desea aprender algunos de estos temas, pude revisar algunos de mis repositorios en donde podrá encontrar lo fundamental del desarrollo web
+
+***
 ## ¿Qué es PHP?
+PHP es un lenguaje sorprendete y pupular, PHP es lo suficientemente potente para ser el núcleo del sistema de blogs más grande de la web [WorPress](https://cloud.google.com/wordpress?utm_source=bing&utm_medium=cpc&utm_campaign=latam-CO-all-es-dr-SKWS-all-all-trial-p-dr-1009897-LUAC0016538&utm_content=text-ad-none-any-DEV_c-CRE_-ADGP_Hybrid%20%7C%20SKWS%20-%20MIX%20%7C%20Txt%20~%20Compute_Wordpress-KWID_43700067399687799-kwd-78203120058646%3Aloc-43&utm_term=KW_Wordpress-ST_Wordpress&gclid=f1719b1327d811e05b3eff6140fd1983&gclsrc=3p.ds&hl=es), PHP también es lo suficientemente profundo como para poder ejecutar grandes redes sociales y es bastante facil de aprender como para ser el primer lenguaje del  lado del servidor para un principiante 
 
-PHP (acrónimo recursivo de PHP: HyperText Preprocessor) es un laenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y puede ser incrustado en HTML.Bien, pero ¿qué significa realamente? UN ejeplo nos aclarará las cosas:
+- PHP es un acrónimo de "PHP: Procesador de Hipertexto"
+- PHP es un lenguaje de secuencias de código abierto ampliamente utilizado
+- Los Scripts de PHP se ejecutan del lado del servidor  
 
+***
+## ¿Qué es un archivo PHP?
+
+Los archivos PHP pueden contener texto, HTML, CSS, JavaScript y código PHP. El código PHP se ejecuta en el servidor y el resultado se devuelve al navegador como HTML simple, los archivos PHP tienen la extención _".PHP"_
+
+***
+## ¿Qué puede hacer PHP?
+- PHP puede generar contenido de página dinámico
+- PHP puede crear, abir, leer, escribir, eliminar y cerrar archivos en el servidor
+- PHP puede recopilar datos de formulario
+- PHP puede enviar y recibir cookies
+- PHP puede agregrar, eliminar, modificar datos en base de datos
+- PHP se puede usar para controlar el acceso de los usuarios  
+
+Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF. También puede generar cualquier texto, como [XHTML](https://books.google.cl/books?hl=es&lr=&id=aaa6EAAAQBAJ&oi=fnd&pg=PA1&dq=Que+es+XHTML+&ots=dpvIvfdlm6&sig=jLY4kEWVofozaOsoWCCt_SFvlDg#v=onepage&q=Que%20es%20XHTML&f=false) y [XMl](https://www.google.com.co/books/edition/XML_pr%C3%A1ctico/x6QToh9wHMYC?hl=es&gbpv=1&dq=Que+es+XML&printsec=frontcover).
+
+***
+## ¿Por qué PHP?
+- PHP se ejecuta en varias platatoformas _(Windows, Linux, Unix, Mac Os x, etc...)_
+- PHP soporta una amplia gama de base de datos
+- PHP es gratis, y puedes descargarlo en [PHP.NET](https://www.php.net/)
+- PHP es fácil de aprender y se ejecuta de manera eficiente en el lado del servidor
+
+***
+## ¿Qué hay de nuevo en PHP 7?
+- PHP 7 es mucho más rápido que la popular versión estable anterior (PHP 5.6)
+- PHP 7 he mejorado el manejo de los errores 
+- PHP 7 admite declaraciones de tipo más estrictas para argumentos de función
+- PHP 7 admite nuevos operadores
+
+***
+## ¿Qué necesito?
+para comenzar a usar PHP, puede:
+- Encuentre un servidor web con soporte para PHP y MySQL (Xamm)
+- instale un servidor web en su propia PC y luego instale PHP y MySQL
+
+***
+## Use un servidor web con soporte PHP
+
+Si su servidor tiene activado el soporte para PHP no es necesario que realice alguna acción. Simplemente cree algunos *.PHP* archivos,colóquelos en su directorio web y el servidor los analizará automáticamente.
+
+No necesita compilar nada ni instalar ninguna herramienta adicional. Debido a que PHP es gratuito, la mayoria de los servidores web ofrecen soporte para PHP.
+
+***
+## Configure PHP en su propia PC 
+Sin embargo, si su navegador no es compatible con PHP,debe:
+- instalar un servidor web que soporte PHP
+- instalar PHP
+- instalar una base de datos, como MySQL
+
+El sitio web oficial de [PHP.NET](https://www.php.net/) tiene instrucciones de instalación para PHP en su [ManualInstall]( http://php.net/manual/en/install.php). otra opción que puede usar es un compilador en línea.
+
+***
+## Sintaxis PHP
+Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se envía de vuelta al navegador. Un Script se puede colocar en cualquier parte del documento, Un Script PHP comienza con la etiqueta de apertura y finaliza con una etiqueta de cierre.
+
+_Ejemplo:_
 ~~~
-<!Doctype html>
-  <html>
-    <head>
-      <title>Ejemplo</title>
-    </head>
-<body>
-
 <?php 
-  echo "¡Hola, soy un script de PHP!";
-<?
 
-</body>
+  // php code goes here
+
+?>
+~~~
+La extención predeterminada para los archivos PHP es ".php". Un archivo PHP normalmente contiene etiquetas HTML y algún código de secuensias de comandos PHP.
+
+A continuación, tenemos un ejemplo de un archivo PHP simple, con un script PHP que utiliza una función PHP integrada "Echo" para generar el texto "Hello World!" en una páguina web:
+~~~
+<!DOCTYPE html>
+<hmtl>
+  <body>
+    <h1> My first PHP page<h1>
+     
+      <?php 
+          Echo "Hello World!";
+      ?>
+      
+  </body>      
 </html>
 ~~~
+Note: _las declaraciones en PHP deben de terminar en ;._
 
-En lugar de usar muchos comandos para mostrar HTML (como en C o en Perl), las páginas de PHP contienen HTML con código incrustado que hace "algo" (en este caso, mostrar "¡Hola, soy un script de PHP!). El código de PHP está encerrado entre las etiquetas especiales de comienzo y final <?php y ?> que permiten entrar y salir del "modo PHP".
+***
+## Sencibilidad de mayúsculas y minúsculas de PHP 
+En, PHP, las palabras clave (P.ej:if, else, while, echo etc...), clases, funciones y funciones definidas por el usuario no distiguen entre mayúsculas y minúsculas.
+    
+En la siguiente ejemplo, las tres declaraciones de Echo son igules y legales:
+ ~~~
+    <!DOCTYPE html>
+    <html>
+      <body>
+        
+        <?php 
+          ECHO "Hello Wordl!<br>";
+          echo "Hello Wordl!<br>"
+          EcHo "Hello Wordl!<br>"
+        ?>
+        
+      </body>
+    </html>
+ ~~~
+    
+Nota: _Sin embargo; ¡Todos los nombres de las variables distinguen entre mayúsculas y minúsculas!_ 
+    
+Para mejor explicación haremos un ejemplo más, a continuación; ¡solo la primera declaración mostrará el valor de la variable $color!, esto se de a que $color, $coLOR y $COLOR se tratan de tres variables distintas o diferentes.
 
-Lo que distingue a PHP de algo del lado del cliente como Javascrip, es que el código es ejecutado en el servidor, generando HTML y enviándolo al cliente. El cliente recibirá el resultado de ejecutar el script, aunque no se sabrá el código subyacente que era. El servidor web puede ser configurado incluso para que procese todos los ficheros HTML con PHP, por lo que no hay manera de que los usuarios puedan saber qué se tiene debajo de la manga.
+~~~
+    <!DOCTYPE html>
+    <html>
+      <doby>
+        
+        <?hp
+        $color = "red";
+          Echo "My car is ". $color. "<br>";
+          Echo "My car is ". $coLOR. "<br>";
+          Echo "My car is ". $COLOR. "<br>";
+        ?>
 
-Lo mejor de utilizar PHP es su extrema simplicidad para el principiante, pero a su vez ofrece muchas características avanzadas para los programadores profesionales. No sienta miedo de leer la larga lista de características de PHP. En unas pocas horas podrá empezar a escribir sus primeros scripts.
+    </body>
+  </html>      
+~~~
 
-Aunque el desarrollo de PHP está centrado en la programación de scripts del lado del servidor, se puede utilizar para muchas otras cosas. Siga leyendo y descubra más en la sección ¿Qué puede hacer PHP?.
+***
+## Comentarios en PHP 
+Un comentario en código PHP es una línea que no se ejecuta como parte del programa. Su único propósito es que alguien que esté mirando el código la lea.
+    
+Los comentarios se puede utilizar para:
+    
+- Deje que otros usuarios puedan entender su código
+- Recuerde que lo hizo
+- Los comentarios puden recordarte lo que estabas pensando cuando esribiste el código
 
-## ¿Qué se puede hacer con PHP?
+PHP nos permite varias formas de comentar:
 
-Cualquier cosa. PHP está enfocado principalmente a la programación de scripts del lado del servidor, por lo que se puede hacer cualquier cosa que pueda hacer otro programa CGI, como recopilar datos de formularios, generar páginas con contenidos dinámicos, o enviar y recibir cookies. Aunque PHP puede hacer mucho más.
+_Ejemplo:_
 
-Existen principalmente tres campos principales donde se usan scripts de PHP.
+Sintaxis para comentarios de una sola línea:
 
-- Scripts del lado del servidor. Este es el campo más tradicional y el foco principal. Son necesarias tres cosas para que esto funcione: el analizador de PHP (módulo CGI o servidor), un servidor web y un navegador web. Es necesario ejecutar el servidor con una instalación de PHP conectada. Se puede acceder al resultado del programa de PHP con un navegador, viendo la página de PHP a través del servidor.
+~~~
+<!DOCTYPE html>
+    <html>
+      <body>
+        
+        <?php
+      //This is a single-line comment
 
-- Scripts desde la línea de comandos. Se puede crear un script de PHP y ejecutarlo sin necesidad de un servidor o navegador. Solamente es necesario el analizador de PHP para utilizarlo de esta manera. Este tipo de uso es ideal para scripts que se ejecuten con regularidad empleando cron (en *nix o Linux) o el Planificador de tareas (en Windows). Estos scripts también pueden usarse para tareas simples de procesamiento de texto.
+      #This is a single-line comment
+        ?>
+      </body>
+     </hmtl>
+~~~
 
-- Escribir aplicaciones de escritorio. Probablemente PHP no sea el lenguaje más apropiado para crear aplicaciones de escritorio con una interfaz gráfica de usuario, pero si se conoce bien PHP, y se quisiera utilizar algunas características avanzadas de PHP en aplicaciones del lado del cliente, se puede utilizar PHP-GTK para escribir dichos programas. También es posible de esta manera escribir aplicaciones independientes de una plataforma.
+_Ejemplo:_
 
-PHP puede emplearse en todos los sistemas operativos principales, incluyendo Linux, muchas variantes de Unix (incluyendo HP-UX, Solaris y OpenBSD), Microsoft Windows, macOS, RISC OS y probablemente otros más. PHP admite la mayoría de servidores web de hoy en día, incluyendo Apache, IIS, y muchos otros. Esto incluye cualquier servidor web que pueda utilizar el binario de PHP FastCGI, como lighttpd y nginx. PHP funciona tanto como módulo como procesador de CGI.
+Sintaxis para comentarios de varias líneas:
 
-De modo que con PHP, se tiene la libertad de elegir el sistema operativo y el servidor web. Además, se tiene la posibilidad de utilizar programación por procedimientos o programación orientada a objetos (POO), o una mezcla de ambas.
+~~~
+<!DOCTYPE html>
+<html>
+  <body>
 
-Con PHP no se está limitado a generar HTML. Entre las capacidades de PHP se incluyen la creación de imágenes, ficheros PDF e incluso películas Flash (usando libswf y Ming) generadas sobre la marcha. También se puede generar fácilmente cualquier tipo de texto, como XHTML y cualquier otro tipo de fichero XML. PHP puede autogenerar estos ficheros y guardarlos en el sistema de ficheros en vez de imprimirlos en pantalla, creando una caché en el lado del servidor para contenido dinámico.
+    <?php
+    /*
+      This is a multiple-lines comment block
+      that spans over multiple
+      lines
+    */
+    ?>
+        
+</html>
+</body>      
+~~~
 
-Una de las características más potentes y destacables de PHP es su soporte para un amplio abanico de bases de datos. Escribir una página web con acceso a una base de datos es increíblemente simple utilizando una de las extensiones específicas de bases de datos (p.ej., para mysql), o utilizar una capa de abstracción como PDO, o conectarse a cualquier base de datos que admita el estándar de Conexión Abierta a Bases de Datos por medio de la extensión ODBC. Otras bases de datos podrían utilizar cURL o sockets, como lo hace CouchDB.
+Nota: _los comentarios también nos permite omitir partes de códigos:_
+    
+~~~
+<!DOCTYPTE html>
+<html>
+  <body>
+    
+    <?php 
+  //You can also use comments to leave out parts of a code line
+$x =5 /*+15*/ + 5;
+  
+  Echo: $x;
+    ?>
+  
+  </body>
+</html>
+~~~  
 
-PHP también cuenta con soporte para comunicarse con otros servicios usando protocolos tales como LDAP, IMAP, SNMP, NNTP, POP3, HTTP, COM (en Windows) y muchos otros. También se pueden crear sockets de red puros e interactuar usando cualquier otro protocolo. PHP tiene soporte para el intercambio de datos complejos de WDDX entre virtualmente todos los lenguajes de programación web. Y hablando de interconexión, PHP tiene soporte para la instalación de objetos de Java y emplearlos de forma transparente como objetos de PHP.
+Si quiere ver mas ejemplos puede visitar el: [Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP4.PHP)
 
-PHP tiene útiles características de procesamiento de texto, las cuales incluyen las expresiones regulares compatibles con Perl (PCRE), y muchas extensiones y herramientas para el acceso y análisis de documentos XML. PHP estandariza todas las extensiones XML sobre el fundamento sólido de libxml2, y amplía este conjunto de características añadiendo soporte para SimpleXML, XMLReader y XMLWriter.
+***
+## Variables en PHP
+Se puede decir que las variables en programación son "contenedores" los cuales nos permiten almacenar información.
 
-Existen otras extensiones interesantes, las cuales están categorizadas alfabéticamente y por categoría. También hay extensiones adicionales de PECL que podrían estar documentadas o no dentro del manual de PHP, tal como » XDebug
+***
+## Creación o declaración de variables en PHP 
 
-[Fuente de información](https://www.php.net/manual/es/intro-whatcando.php "Documentación PHP ")
+En PHP, una variable comienza con el signo $, seguido el nombre de la variable:
+
+_Ejemplo:_
+~~~
+<?php
+$text "Hello world!";
+$x = 5;
+$y = 15.5; 
+
+  Echo $text."<br>";
+  Echo $x. "<br>";
+  Echo $y. "<br>";
+?>
+~~~
+
+Después de la ejecución de la instrucciones anteriores, la variable $txt contendrá el valor de Hello world!, la variable $x contendrá el valor de 5 y la variable $y contendrá el valor de 15.5.
+
+Nota: _Cuando asigne un valor de texto a una variable, coloque comillas alrededor del valor._
+
+Nota: _a diferencia  de otros lenguajes de programación,PHP no tiene ningún comando para declarar una variable. Se crea en el momento en que le asigna un valor por primera vez._
+
+***
+## Variables PHP     
+Una variable puede tener un nombre corto (como x e y) o un nombre más descriptivo (edad, nombre del coche, volumen_total, etc..).
+    
+Reglas para declarar variables en PHP
+- Una variable comienza con el signo $, seguido del nombre de la variable
+- Un nombre de variable debe comenzar con una letra o el carácter de subrayado
+- Un nombre de variable no pude comenzar con un número
+- Un nombre de variable solo puede contener caracteres alfanuméricos y guiones bajos (Az, 0-9 y _)
+- Los nombre de las variables distinguen entre mayúsculas y minúsculas ($age y $AGE son dos variables diferentes)
+
+Nota: _¡Recuerde que los nombres de las variables de PHP distinguen entre mayúsculas y minúsculas!_
+
+***
+## Variables de salida 
+
+La echo declaración de PHP se usa a menudo para enviar datos a la pantalla.
+    
+El siguiente ejemplo mostrará cómo generar texto y una variable:
+
+_Ejemplo;_
+~~~
+    <?php
+
+    $txt = "W3Schools.com";
+      Echo "I love $txt!";
+    
+    ?>
+~~~
+    
+El siguiente ejemplo producirá el mismo resultado que el ejemplo anterior, con la direfencia de que usaremos la concatenación:
+
+_Ejemplo;_
+~~~
+    <?php
+
+    $txt = "W3Schools.com";
+      Echo "I love". $txt."!";
+
+    ?>
+~~~
+
+El siguiente ejemplo generará la suma de dos variables de dos formas distintas:
+
+_Ejemplo:_
+~~~
+    <?php 
+  
+  $x = 5;
+  $y = 4;
+    Echo $x + $y;
+    
+    ?>
+~~~
+
+El siguiente ejemplo producirá el mismo resultado que el ejemplo anterior, con la diferencia de que declararemos una variable adicional, en la que se almacenara la opercón a realizar:
+
+_Ejemplo:_
+~~~
+    <?php 
+
+  $x = 5;
+  $y = 5;
+  $resultado = $x + $y;
+    Echo $resulatado;
+
+      ?>
+~~~
+Nota: _Aprenderá más sobre la echo declaración y cómo enviar datos a la pantalla más adelante._ 
+
+## PHP es un lenguaje escrito libremente
+
+En el ejmplo anterior, observe que no tuvimos que decirle a PHP qué tipo de datos se almacenarón en las variables.
+
+PHP asocia autimáticamente un tipo de dato a la variable, dependiendo de su valor. Dado que los tipos de datos no se establecen en un sentido estricto, puede hacer cosas como agregar una cadena a un número entero sin causar un error.
+
+En PHP 7, se agregaron declaraciones de tipo. Esto brinda una opción para especificar el tipo esperado al declarar una función, y al habilitar el requisito estricto, arrojará un "Error fatal" en una falta de coincidencia de tipo.
+
+Aprenderá más sobre Strict los non-Strict requisitos y las declaraciones de tipos de datos en el apartado de funciones de PHP.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+[infografia](https://www.w3schools.com/php/php_intro.asp)
+    
+[infografia](https://www.php.net/manual/es/tutorial.php)
