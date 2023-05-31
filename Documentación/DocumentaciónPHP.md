@@ -243,7 +243,7 @@ _Ejemplo:_
 <?php
 $text "Hello world!";
 $x = 5;
-$y =15.5; 
+$y = 15.5; 
 
   Echo $text."<br>";
   Echo $x. "<br>";
