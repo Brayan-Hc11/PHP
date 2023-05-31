@@ -90,7 +90,7 @@ El sitio web oficial de [PHP.NET](https://www.php.net/) tiene instrucciones de i
 
 ***
 ## Sintaxis PHP
-Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se envía de vuelta al navegador. Un Script se puede colocar en cualquier parte del documento, Un Script PHP comienza   _(<?php y termian en ?>)_
+Se ejecuta un Script PHP en el servidor y el resultado HTML sin formato se envía de vuelta al navegador. Un Script se puede colocar en cualquier parte del documento, Un Script PHP comienza con la etiqueta de apertura y finaliza con una etiqueta de cierra.
 ~~~
 <?php 
 
