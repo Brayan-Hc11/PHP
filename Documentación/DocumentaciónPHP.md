@@ -104,7 +104,7 @@ La extención predeterminada para los archivos PHP es ".php". Un archivo PHP nor
 
 A continuación, tenemos un ejemplo de un archivo PHP simple, con un script PHP que utiliza una función PHP integrada "Echo" para generar el texto "Hello World!" en una páguina web:
 ~~~
-<!DOCTYPE htmo>
+<!DOCTYPE html>
 <hmtl>
   <body>
     <h1> My first PHP page<h1>
