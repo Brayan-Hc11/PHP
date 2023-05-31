@@ -2,19 +2,15 @@
 
 <html >
     <head>
-        <meta charset="UTF-8">
-        <title>El uso de las varibles en php.</title>
-    </head>
-
-<body>
+        <body>
     <!--
-        Php es casesensitive lo que quiere decir que distinge entre mayúsculas y minúsculas a la hora de asignar valores a las varivables
-        eso nos permite tener mas de una variable con el mismo nombre pero con distintos resultados.
+        Php es casesensitive lo que quiere decir que distinge entre mayúsculas y minúsculas a la hora de declarar las varivables
+        eso nos permite tener mas de una variable con nombres muy similares pero con distintos datos.
 
-        Las variables se deben de asignar con el sinbolo de pesos $.
-        Para el uso de las variables de tipo stricks o de cadena de caractes usamos las comillas dobles y para los int no se usan.
+        Las variables se deben de asignar con el simbolo de dolar $.
+        Para el uso de las variables de tipo stricks o de cadena de caractes usamos las comillas dobles y para los datos númericos no se usan.
         
-        para poder ver el contenido de una variable es necesario imprimirla en la pantalla con ayuda del comando de echo.
+        para poder ver el contenido de una variable es necesario imprimirla en la pantalla con ayuda del función declarada "echo".
     -->
     <?php
         $inicial="Estaremos realizando las operaciones aritmeticas simples mediante el uso de variables."."\n";
