@@ -251,7 +251,7 @@ $y = 15.5;
 ?>
 ~~~
 
-Después de la ejecución de la instrucciones anteriores, la variable $txt contendrá el valor de Hello world!, la variable $x contendrá el valor de 5 y la variable $y contendrá el valor de 10.5.
+Después de la ejecución de la instrucciones anteriores, la variable $txt contendrá el valor de Hello world!, la variable $x contendrá el valor de 5 y la variable $y contendrá el valor de 15.5.
 
 Nota: _Cuado asigne un valor de texto a una variable, coloque comillas alrededor del valor._
 
