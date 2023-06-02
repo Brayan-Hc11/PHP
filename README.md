@@ -357,14 +357,83 @@ _Ejmeplo:_
 
 variable con alcance global
 ~~~
+<?php
+$x = 5; // global scope
 
+function Mytest(){
+  //Using x inside this function will generate an error
+    Echo "<p>Variable x intside function is: $x</p>";
+}
+
+  Mytest();
+    Echo "<p>Variable x outside function is: $x</p>";
+?>
 ~~~
+
+Una variable declarada dentro de una función tiene un ÁMBITO LOCAL y solo se puede acceder dentro de esa función:
+
+_Ejmplo:_
+
+Variable con alcance local:
+~~~
+<?php
+  function Mytest(){
+  $x =5; //local scope
+    Echo "<p>Variable x inside function is: $x</p>";
+}
+
+Mytest();
+//Using x outside the function will generate an error
+  Echo "<p>Variable x outside function is: $x</p>";
+
+?>
+~~~
+
+Nota: _Puede tener variables locales con el mismo nombre en diferentes funciones, porque las variables locales solo son reconocidas por la función en la que se declaran._
+
+***
+## PHP La palabra clave global
+
+La palabra clave global se utiliza para acceder a una variable global desde dentro de una función.
+
+Para hacer esto , se usa la palabra clave global andes de las variables (dentro de una función):
+
+_EJmplo:_
+~~~
+<?php
+
+$x = 5;
+$y = 10;
+
+  function Mytest(){
+    global $x,$y;
+      $y = $x + $y;
+  }
+ 
+ Mytest();
+  Echo $y; #outpus 15 
+?>
+~~~
+
+PHP también almacena todas las variables globales es un matriz llamada. contiene el nombre de la variable. También se puede acceder a esta matriz desde dentro de las funciónes y se puede usar para actualizar variables globales directamente. $GLOBALS[index] index
+
+El ejemplo anterior se puede reescribir de la siguiente manera:
+
+_Ejemplo:_
+~~~
+<?php
+  
+  $x = 5;
+  $y = 10;
+  
+    function Mytest(){
+      $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+    }
     
-    
-    
-    
-    
-    
+    Mytest();
+      Echo $y; // 15
+?>
+~~~
     
     
     
