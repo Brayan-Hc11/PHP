@@ -434,8 +434,60 @@ _Ejemplo:_
       Echo $y; // 15
 ?>
 ~~~
-    
-    
+
+***
+## PHP La palabra clave estátca 
+
+Normalmente, cuando se completa/ejecuta una función,se eliminan todas sus variables.Sin embargo, aveces queremos que NO se elimine una variable local. lo necesitamos para otro trabajo.
+
+para hacer esto, ues la palabra clase "static" cuando declara la variable por primera vez:
+
+_Ejmplo:_ 
+~~~
+<?php
+function Mytest(){
+  static $x = 0;
+    Echo = $x;
+    $x++;
+};
+
+Mytest();
+  Echo "<br>";
+Mytest();
+  Echo "<br>";
+Mytest();
+  Echo "<br>";
+?>
+~~~
+
+Entonces, cada vez que se llame a la función, esa variable aún tendrá la información que contenía desde la última vez que se llamó a la función.
+
+Nota: _la variable sigue siendo local para la función._
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
