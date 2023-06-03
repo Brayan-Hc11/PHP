@@ -464,6 +464,18 @@ Entonces, cada vez que se llame a la función, esa variable aún tendrá la info
 
 Nota: _la variable sigue siendo local para la función._
 
+***
+## Declaraciones Echo y Print en PHP 
+
+Con PHP, hay dos formas básicas de obtener resultados: echo y print.
+
+En este tutorial estaremos usando *echo* y *print* en la mayoría de los ejemplos. Entoces esté cpitulo tiene un poco más de información sobre esas dos declaraciones de salida.
+
+echo y print son mas o menos lo mismo.Ambos se utilizan para enviar datos a la pantalla.
+
+Las diferencias son pequeñas: echo no tiene valor de retorno mientras que print tiene un valor de retorno de 1 por lo que puede usarse en expreciones. echo puede tomas múltiples parámetros (aun que tal uso es raro) mientras que print puede tomar un argumento. echo es marginalmente más rápido que print.
+
+
 
 
 
