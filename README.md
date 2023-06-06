@@ -475,6 +475,67 @@ echo y print son mas o menos lo mismo.Ambos se utilizan para enviar datos a la p
 
 Las diferencias son pequeñas: echo no tiene valor de retorno mientras que print tiene un valor de retorno de 1 por lo que puede usarse en expreciones. echo puede tomas múltiples parámetros (aun que tal uso es raro) mientras que print puede tomar un argumento. echo es marginalmente más rápido que print.
 
+***
+## La declaración de echo de PHP
+
+La declaración de echo la podemos usar con los parentesis o sin ellos. El siguiente ejemplo muestra comó generar texto con el comando de "echo"
+ _Ejemplo:_
+ 
+ ~~~
+<?php
+  Echo "<h2>PHP is Fun!</h2>";
+  Echo "Hello world!<br>";
+  Echo "I'm about to learn PHP!<br>";
+  Echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+?>
+ ~~~
+ 
+ En el siguiente ejemplo muestra comó generar texto y variables con la declaración de echo:
+ _Ejmplo_;
+ 
+ ~~~
+ <?php
+  $txt1 = "Learn PHP";
+  $txt2 = "W3Schools.com";
+  $x = 5;
+  $y = 4;
+
+    echo "<h2>" . $txt1 . "</h2>";
+    echo "Study PHP at " . $txt2 . "<br>";
+    echo $x + $y;
+ ?>
+ ~~~
+ 
+ ***
+ ## La declaración print dentro de PHP
+ 
+ La declaración print se puede usar con parentesis o sin ellos, En el sigiuiente ejemplo muestra comó generar texto con el comando print
+ _Ejemplo:_
+ 
+ ~~~
+ <?php
+  print "<h2>PHP is Fun!</h2>";
+  print "Hello world!<br>";
+  print "I'm about to learn PHP!";
+ ?>
+ ~~~
+ 
+ En el siguiente ejemplo muestra comó generar testo y variables con la declaración print
+ _Ejmplo:_
+ 
+ ~~~
+ <?php
+$txt1 = "Learn PHP";
+$txt2 = "W3Schools.com";
+$x = 5;
+$y = 4;
+
+print "<h2>" . $txt1 . "</h2>";
+print "Study PHP at " . $txt2 . "<br>";
+print $x + $y;
+?>
+ ~~~
+
 
 
 
