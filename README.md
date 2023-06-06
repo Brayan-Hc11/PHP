@@ -1,4 +1,4 @@
-# Ruta de aprendiaje PHP
+# Ruta de aprendiaje PHP <img align="center" src="https://github.com/Thomas-Boi/devicon/blob/master/icons/php/php-original.svg" height ="60"/>
 
 - PHP INICIO
 - Introducción PHP
