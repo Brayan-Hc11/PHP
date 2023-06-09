@@ -561,13 +561,8 @@ print $x + $y;
 
 
 
-    
-    
-    
-    
-    
-    
-    
+   
+        
 [infografia](https://www.w3schools.com/php/php_intro.asp)
     
-[infografia](https://www.php.net/manual/es/tutorial.php)
+[Documentación PHP](https://www.php.net/manual/es/tutorial.php)
