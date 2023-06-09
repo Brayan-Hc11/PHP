@@ -544,25 +544,8 @@ print $x + $y;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    
         
-[infografia](https://www.w3schools.com/php/php_intro.asp)
+[practica de PHP](https://www.w3schools.com/php/php_intro.asp)
     
 [Documentación PHP](https://www.php.net/manual/es/tutorial.php)
