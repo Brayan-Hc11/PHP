@@ -613,8 +613,8 @@ Un booleano representa dos estados posibles: TRUE(Verdadero) y FALSE(Falso). Los
 
 ~~~
 <?php
-$x
-
+$x = True;
+$y = False;
 ?>
 ~~~
 
