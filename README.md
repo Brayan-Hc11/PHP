@@ -536,6 +536,87 @@ print $x + $y;
 ?>
  ~~~
 
+***
+## Tipos de datos en PHP
+
+Las variables pueden almacenar datos de diferentes tipos, y diferentes tipos datos pueden hacer cosas diferentes.
+
+PHP admite los siguientes tipos de datos:
+- Cadena
+- Entero
+- Flot (número de coma flotante, también llamados dobles)
+- Booleano
+- Formación (Matricez)
+- Objeto 
+- Nulo 
+- Recurso
+
+## Cadena en PHP
+
+Una cadena es una secuencia de caracteres, como "¡Hola mundo!".
+
+Una cadena puede ser cualquier texto entre comillas.Puede utilizar comillas simples o dobles:
+
+_Ejemplo:_
+~~~
+<?PHP
+
+  $x = "¡Hello world!";
+  $y = '¡Hello World!';
+
+    Echo $x;
+    ECho "<br>";
+    Echo $y;
+?>
+~~~
+
+## Entero en PHP
+
+Un tipo de dato entero es un número no decimal entre  -2,147,483,648 y 2,147,483,647.
+
+Reglas para los números enteros: 
+- Un número entero debe tener al menos un dígito
+- Un número entero no debe de tener un punto decimal
+- Un número entero puede ser negativo o positivo
+- Los números enteros se puede especificar en: notación decimal(base 10),hexadecimal (base 16),octal (base 8) o binaria (base 2)
+
+En el siguiente ejemplo, $x es un número entero. La función PHP var_dump() devuelve el tipo de dato y el valor:
+
+_Ejemplo:_
+~~~
+<?php
+
+$x = 5985;
+  var_dump($x);
+  
+?>
+~~~
+
+## Flot(Flotante)
+
+Un Float (número de punto flotante ) es un número con un punto decimal o un número en forma exponencial.
+
+En el siguiente ejemplo, $x es un flotante. La función PHP **var_dump()** devuelde el tipo de dato y el valor:
+
+_Ejemplo:_
+~~~
+<?PHP
+
+  $x = 10.365;
+    var_dump($x);
+?>
+~~~
+
+## PHP booleano 
+
+Un booleano representa dos estados posibles: TRUE(Verdadero) y FALSE(Falso). Los booleanos se utilizan a menudo en pruebas condicionales.
+
+~~~
+<?php
+$x
+
+?>
+~~~
 
 
 
