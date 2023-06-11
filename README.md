@@ -637,6 +637,20 @@ _Ejemplo:_
 ?>
 ~~~
    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
         
 [practica de PHP](https://www.w3schools.com/php/php_intro.asp)
     
