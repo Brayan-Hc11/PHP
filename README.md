@@ -618,13 +618,12 @@ $y = False;
 ?>
 ~~~
 
-***
 
 ## Formación(Matricez)
 
 Una matriz almacena múltiples valores en un sola variable.
 
-En el siguiente ejemplo, $cars es una matriz. La función PHP var_dump(); devuelve el tipo de datos y el valor:
+En el siguiente ejemplo, $cars es una matriz. La función PHP var_dump(); devuele el tipo de datos y el valor:
 
 _Ejemplo:_
 
