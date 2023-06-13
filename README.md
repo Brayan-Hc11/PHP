@@ -640,7 +640,6 @@ _Ejemplo:_
 *** 
 ## Objeto en PHP
 
-Las clases y los objetos son los dos aspectos principales de la programación orientada a objetos.
 
 
 
