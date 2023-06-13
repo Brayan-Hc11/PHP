@@ -644,7 +644,7 @@ Las clases y los objetos son los dos aspectos principales de la programación or
 
 Una clase es una plantilla para objetos y un objeto es una estancia de una clase.
 
-Cuando se crean los objetos individuales 
+
 
    
    
