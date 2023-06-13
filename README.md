@@ -642,7 +642,7 @@ _Ejemplo:_
 
 Las clases y los objetos son los dos aspectos principales de la programación orientada a objetos.
 
-Una clase es una plantilla para objetos y un objeto es una estancia de una clase.
+
 
 
 
