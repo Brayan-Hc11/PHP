@@ -638,7 +638,7 @@ _Ejemplo:_
 ~~~
 
 *** 
-## Objeto en PHP
+## Objeto en PHP 
 
 
 
