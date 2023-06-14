@@ -640,19 +640,77 @@ _Ejemplo:_
 *** 
 ## Objeto en PHP 
 
+Las calses y los objetos son los dos aspectos principales de la programación orientada a objetos.
 
+Una clase es una plantilla para objetos y un objeto es una instancia de una clase.
 
+Cuando se crean los objetos individuales, heredan todas las propiedades y comportamientos de la clase, pero cada objeto tendrá diferentes valores para las propiedades.
 
+Supongamos que tenemos una clase llamada Car. Un automóvil puede tener propiedades como modelo, color, etc. Podemos definir variables como $modelo, $color, etc., para contener los valores de estas propiedades.
 
+Cuando se crean los objetos individuales(Volvo, BMW, Toyota, etc.), heredan todas las propiedades y comportamientos de la clase, pero cada objeto tendrá diferentes valores para las propiedades.
 
-   
-   
-   
-   
-   
-   
-   
-   
+Si crea una función "construct()", PHP llamará automáticamente a esta función cuando cree un objeto de una clase.
+
+_Ejemplo:_
+
+~~~
+<?PHP
+class Car {
+
+  public $color;
+  public $model;
+  public function _construct($color,$model) {
+    
+    $this -> color = $color;
+    $this -> model = $model;
+  }
+  
+  public function message(){
+    return "My car is a " . $this -> color. " " . $this -> model. "!";  
+  }
+}
+
+$myCar = new Car("black", "Volvo")
+  
+  Echo $myCar -> message();
+  Echo "<br>";
+
+$myCar = new Car("red", "Toyota");
+  Echo $myCar -> message();
+?>
+~~~
+
+***
+## Valor NULO de PHP
+
+Null es un tipo de dato especial qeu solo puede tener un valor: NULL. 
+
+Una variable de tipo de datos NULL es una variable que no tiene ningún valor adignado.
+
+**Sugerencia:** si se crea una variable sin un valor, se le asigna automáticamente un valor NULL.
+
+Las variables también se puede vaciar estableciendo el valor en NULL:
+
+_Ejemplo:_
+
+~~~
+<?PHP
+$x = "¡Hello world!";
+$x = null;
+
+  var_dump($x);
+?>
+~~~
+
+***
+## Recurso PHP
+
+El tipo de dato Recurso especial no es un tipo de datos real. Es el alamacenamiento de una referencia a funciones y recursos externos a PHP.
+
+Un ejemplo común del uso de tipo de dato de recurso es una llamada a la basse de datos.
+
+No hablamos aquí del tipo de recurso, ya que es un tema avanzado.
    
    
    
@@ -660,6 +718,6 @@ _Ejemplo:_
    
    
         
-[practica de PHP](https://www.w3schools.com/php/php_intro.asp)
+<!--[practica de PHP](https://www.w3schools.com/php/php_intro.asp)
     
-[Documentación PHP](https://www.php.net/manual/es/tutorial.php)
+[Documentación PHP](https://www.php.net/manual/es/tutorial.php)-->
