@@ -21,6 +21,7 @@
 - Superglobales de PHP
 - PHP expresión regular
 
+***
 Antes de continuar se debe de tener una compresión bácica de lo siguiente:
 - [HTML](https://github.com/Brayan-Hc11/HTML5)
 - [CSS](https://github.com/Brayan-Hc11/css3)
