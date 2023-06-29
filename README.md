@@ -706,12 +706,30 @@ $x = null;
 
 ***
 ## Recurso PHP
-
 El tipo de dato Recurso especial no es un tipo de datos real. Es el alamacenamiento de una referencia a funciones y recursos externos a PHP.
-
 Un ejemplo común del uso de tipo de dato de recurso es una llamada a la basse de datos.
-
 No hablamos aquí del tipo de recurso, ya que es un tema avanzado.
+
+***
+## Cadenas en PHP
+Una cadena en PHPh es una secuencia de caracteres , como lo es "¡Hola mundo!".
+
+***
+## Funciones de cadenas de PHP
+En es ta capítulo veremos las funciones de cadenas compún para manipular cadenas.
+
+#### Strlen() - Devuelve la longitud de una cadena 
+La función PHP "Strlen()" devuelve la longitud de una cadena.
+
+_Ejemplo:_
+~~~
+<?php
+  Echo Strlen("¡Hello World!");//outputs 12
+?>
+~~~
+
+#### STr_Word_count() Cuenta cada una de las palabras 
+
    
    
    
