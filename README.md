@@ -752,7 +752,7 @@ _Ejemplo:_
 Lafunción Strpos() en PHP busca un texto específico dentro de una cadena. Si se encuentra coincidencia, lafunción devuelve el la prosición del carácter de la primera coincidencia. si no se encuentra ninguna coincidencia devolverá FALSO.
 
 _Ejemplo:_
-Busqeu el texto "Mundo" en la cadena "!Hola mundo¡":
+Busque el texto "Mundo" en la cadena "!Hola mundo¡":
 
 ~~~
 <?php
