@@ -712,7 +712,7 @@ No hablamos aquí del tipo de recurso, ya que es un tema avanzado.
 
 ***
 ## Cadenas en PHP
-Una cadena en PHPh es una secuencia de caracteres , como lo es "¡Hola mundo!".
+Una cadena en PHP es una secuencia de caracteres , como lo es "¡Hola mundo!".
 
 ***
 ## Funciones de cadenas de PHP
