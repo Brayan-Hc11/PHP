@@ -26,4 +26,7 @@
 - PHP es un lenguaje fácil de usar, en ccomparación con otros lenguajes como Java o Ruby.
 - PHP es multiplataforma lo que permite que PHP se ejecute en una multitud de plataformas y sistemas operativos e incluso en servidores existentes.
 - PHP es un lenguaje que se ejucuta del lado del servidor
-- PHP se puede incrustar en archivos HTML.  
+- PHP se puede incrustar en archivos HTML.
+
+***
+##
