@@ -945,6 +945,6 @@ Busque el texto "Mundo" en la cadena "!Hola mundo¡":
    
    
         
-<!--[practica de PHP](https://www.w3schools.com/php/php_intro.asp)
+<!--[practica de PHP](https://www.w3sch
     
 [Documentación PHP](https://www.php.net/manual/es/tutorial.php)-->
