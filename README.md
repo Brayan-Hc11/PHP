@@ -1,25 +1,13 @@
-# Ruta de aprendiaje PHP <img align="center" src="https://github.com/Thomas-Boi/devicon/blob/master/icons/php/php-original.svg" height ="60"/>
+<div align="center">
+  <img align="center" src="https://github.com/Thomas-Boi/devicon/blob/master/icons/php/php-original.svg" height ="100px"/>
+  
+  # Ruta de aprendiaje PHP 
+</div>
 
-- PHP INICIO
-- Introducción PHP
-- Instalación de PHP
-- Sintaxis PHP
-- Comentarios PHP
-- Variables PHP
-- PHP Echo / Imprimir
-- Tipos de datos PHP
-- Cadenas PHP
-- Números PHP
-- Matemáticas PHP
-- Constantes PHP
-- Operadores PHP
-- PHP Si... Más... Elseif
-- Cambio de PHP
-- Bucles de PHP
-- Funciones PHP
-- Matrices de PHP
-- Superglobales de PHP
-- PHP expresión regular
+<details>
+  <summary>
+    Inicio en PHP 
+  </summary>
 
 ***
 Antes de continuar se debe de tener una compresión bácica de lo siguiente:
@@ -27,9 +15,16 @@ Antes de continuar se debe de tener una compresión bácica de lo siguiente:
 - [CSS](https://github.com/Brayan-Hc11/css3)
 - [JavaScript](https://github.com/Brayan-Hc11/JavaScript)
 
-Si desea aprender algunos de estos temas, pude revisar algunos de mis repositorios en donde podrá encontrar lo fundamental del desarrollo web
-
+Si desea aprender algunos de estos temas, pude revisar algunos de mis repositorios en donde podrá encontrar lo fundamental del desarrollo web  
 ***
+</details>
+
+<details>
+  <summary>
+    Introducción a PHP
+  </summary>
+
+  ***
 ## ¿Qué es PHP?
 PHP es un lenguaje sorprendete y pupular, PHP es lo suficientemente potente para ser el núcleo del sistema de blogs más grande de la web [WorPress](https://cloud.google.com/wordpress?utm_source=bing&utm_medium=cpc&utm_campaign=latam-CO-all-es-dr-SKWS-all-all-trial-p-dr-1009897-LUAC0016538&utm_content=text-ad-none-any-DEV_c-CRE_-ADGP_Hybrid%20%7C%20SKWS%20-%20MIX%20%7C%20Txt%20~%20Compute_Wordpress-KWID_43700067399687799-kwd-78203120058646%3Aloc-43&utm_term=KW_Wordpress-ST_Wordpress&gclid=f1719b1327d811e05b3eff6140fd1983&gclsrc=3p.ds&hl=es), PHP también es lo suficientemente profundo como para poder ejecutar grandes redes sociales y es bastante facil de aprender como para ser el primer lenguaje del  lado del servidor para un principiante 
 
@@ -41,8 +36,8 @@ PHP es un lenguaje sorprendete y pupular, PHP es lo suficientemente potente para
 ## ¿Qué es un archivo PHP?
 
 Los archivos PHP pueden contener texto, HTML, CSS, JavaScript y código PHP. El código PHP se ejecuta en el servidor y el resultado se devuelve al navegador como HTML simple, los archivos PHP tienen la extención _".PHP"_
-
 ***
+
 ## ¿Qué puede hacer PHP?
 - PHP puede generar contenido de página dinámico
 - PHP puede crear, abir, leer, escribir, eliminar y cerrar archivos en el servidor
@@ -68,6 +63,14 @@ Con PHP no está limitado a generar HTML. puede generar imágenes o archivos PDF
 - PHP 7 admite nuevos operadores
 
 ***
+</details>
+
+<details>
+  <summary>
+    Inslación y configuración de PHP
+  </summary>
+
+  ***  
 ## ¿Qué necesito?
 para comenzar a usar PHP, puede:
 - Encuentre un servidor web con soporte para PHP y MySQL (Xamm)
@@ -88,6 +91,14 @@ Sin embargo, si su navegador no es compatible con PHP,debe:
 - instalar una base de datos, como MySQL
 
 El sitio web oficial de [PHP.NET](https://www.php.net/) tiene instrucciones de instalación para PHP en su [ManualInstall]( http://php.net/manual/en/install.php). otra opción que puede usar es un compilador en línea.
+
+***
+</details>
+
+<details>
+  <summary>
+    Sintaxis en PHP
+  </summary>
 
 ***
 ## Sintaxis PHP
@@ -159,8 +170,16 @@ Para mejor explicación haremos un ejemplo más, a continuación; ¡solo la prim
   </html>      
 ~~~
 
+***  
+</details>
+
+<details>
+  <summary>
+    Comentarios en PHP
+  </summary>
+
 ***
-## Comentarios en PHP 
+  ## Comentarios en PHP 
 Un comentario en código PHP es una línea que no se ejecuta como parte del programa. Su único propósito es que alguien que esté mirando el código la lea.
     
 Los comentarios se puede utilizar para:
@@ -231,6 +250,14 @@ $x =5 /*+15*/ + 5;
 Si quiere ver mas ejemplos puede visitar el: [Material de apoyo](https://github.com/Brayan-Hc11/PHP/blob/main/EjerciciosPHP/CAP4.PHP)
 
 ***
+</details>
+
+<details>
+  <summary>
+    Variables en PHP
+  </summary>
+
+  ***
 ## Variables en PHP
 Se puede decir que las variables en programación son "contenedores" los cuales nos permiten almacenar información.
 
@@ -437,7 +464,7 @@ _Ejemplo:_
 ~~~
 
 ***
-## PHP La palabra clave estátca 
+## PHP La palabra clave static 
 
 Normalmente, cuando se completa/ejecuta una función,se eliminan todas sus variables.Sin embargo, aveces queremos que NO se elimine una variable local. lo necesitamos para otro trabajo.
 
@@ -465,7 +492,16 @@ Entonces, cada vez que se llame a la función, esa variable aún tendrá la info
 
 Nota: _la variable sigue siendo local para la función._
 
-***
+***  
+</details>
+
+<details>
+  <summary>
+    Declaración de Echo y Print en PHP
+  </summary>
+
+  ***
+  
 ## Declaraciones Echo y Print en PHP 
 
 Con PHP, hay dos formas básicas de obtener resultados: echo y print.
@@ -538,7 +574,15 @@ print $x + $y;
  ~~~
 
 ***
-## Tipos de datos en PHP
+</details>
+
+<details>
+  <summary>
+    Tipos de datos en PHP
+  </summary>
+
+  ***
+  ## Tipos de datos en PHP
 
 Las variables pueden almacenar datos de diferentes tipos, y diferentes tipos datos pueden hacer cosas diferentes.
 
@@ -711,6 +755,14 @@ Un ejemplo común del uso de tipo de dato de recurso es una llamada a la basse d
 No hablamos aquí del tipo de recurso, ya que es un tema avanzado.
 
 ***
+</details>
+
+<details>
+  <summary>
+    Cadenas o strings en PHP
+  </summary>
+
+  ***
 ## Cadenas en PHP
 Una cadena en PHP es una secuencia de caracteres , como lo es "¡Hola mundo!".
 
@@ -759,6 +811,112 @@ Busque el texto "Mundo" en la cadena "!Hola mundo¡":
   Echo Strpo("!Hello Word¡", "World");//outputs 7
 ?>
 ~~~
+  
+</details>
+
+<deteils>
+  <summary>
+    Números en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Matematicas en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Constantes en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Operadores en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Condicionales en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Cambio en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Bucles en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Fundiones en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Matrices en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Superglobales en PHP
+  </summary>
+</deteils>
+
+<deteils>
+  <summary>
+    Expreción regular en PHP
+  </summary>
+</deteils>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
