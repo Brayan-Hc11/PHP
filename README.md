@@ -827,7 +827,7 @@ Echo str_replace("world","Dolly","Hello word!");//outputs Hello Dolly
 
 </details>
 
-<deteils>
+<details>
   <summary>
     Números en PHP
   </summary>
@@ -939,67 +939,67 @@ Echo "<br>"
 </html>
 ~~~
 
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Matematicas en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Constantes en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Operadores en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Condicionales en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Cambio en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Bucles en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Fundiones en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Matrices en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Superglobales en PHP
   </summary>
-</deteils>
+</details>
 
-<deteils>
+<details>
   <summary>
     Expreción regular en PHP
   </summary>
-</deteils>
+</details>
 
 
 
