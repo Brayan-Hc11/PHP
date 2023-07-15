@@ -663,8 +663,6 @@ $y = False;
 ?>
 ~~~
 
-
-
 ## Formación(Matricez)
 
 Una matriz almacena múltiples valores en un sola variable.
@@ -811,13 +809,136 @@ Busque el texto "Mundo" en la cadena "!Hola mundo¡":
   Echo Strpo("!Hello Word¡", "World");//outputs 7
 ?>
 ~~~
-  
+_Nota:_ La posición del primer carácter en una cadeena es 0 no 1.
+
+#### Str_replace()- Reemplazar texto dentro de una cadena
+La función de Str_replace() en PHP reemplaz algunos catacteres en una cadena y se usa de la siguiente forma:
+
+_Ejemplo:_
+
+Reemplace el texto "mundo" con "Dolly"
+ 
+~~~
+<?php
+Echo str_replace("world","Dolly","Hello word!");//outputs Hello Dolly
+?>
+~~~
+***
+
 </details>
 
 <deteils>
   <summary>
     Números en PHP
   </summary>
+  
+  ***
+  ### En este capítulo veremos en pronfundidad los números enteros(int), los flotantes(float) y las cadenas numéricas que se presentan en PHP.
+
+***
+## Números en PHP
+Una cosa a tener en cuenta sobre PHP es que proporciona conversión automática de tipos de datos.
+
+Entonces, si se asigna un valor entero a una variable, el tipo de esa variable será automáticamente un número entero.Luego, si asigna una cadena a la misma variable, el tipo cambiará a una cadena. 
+
+Este tipo de conversión automatica puede llegar a romper el código.
+***
+
+## Enteros en PHP (int)
+2, 256, -256, 10358, -179567,etc... son todos números enteros.
+
+Un valor numérico entero es un número sin ninguna parta decimal.
+
+Un tipo de dato entero es un número no decimal entre -2147483648 y 2147483647 en sistemas de 32 bits, y entre -9223372036854775808 y 9223372036854775807 en sistemas de 64 bits. Un valor mayor o menor que este, se almacenará como un valor flotante, por que este valor esta exediendo el límite de un número entero.
+
+_Nota:_ Otra cosa importante que debe saber es que incluso si 4* 2.5 es 10, el resultado se almacena como un flotante, porque uno de los operadores es flotante(2.5).
+
+Aquí hay algunas de las reglas para nuúmeros enteros:
+ - Un número entero(int) debe de tener al menos un dígito
+ - Un número entero(int) __NO__ debe de tener un punto decimal
+ - Un número entero(int) puede llegar a ser positivo o negativo
+ - Los número enteros(int) se pueden especificar en tres formatos:
+    - decimal (base en 10)
+    - hexadecimal (base en 16 con prefijo de 0x)
+    - octal (base 8 con prefijo de 0)
+
+PHP tiene las siguientes constates predefinidas para números enteros:
+  - PHP_INT_MAX: nos permitirá usar el entero más grande admitido
+  - PHP_INT_MIN: nos permitirá usarl el entero más pequeño admitido
+  - PHP_INT_SIZE: nos describe el tamaño de un entero en bytes
+
+PHP tiene las siguietes fundiones para verificar si el tipo de una variable es entero:
+  - es_int()
+  - is_integer()
+  - is_long()-alias de is_int()
+
+_Ejemplo:_
+
+Compruebe si el tipo de una variable es entero:
+~~~
+<!DOCTYPE html>
+  <html>
+    <body>
+
+<?php
+// Check if the type of a variable is integer   
+  $x = 5985;
+    var_dump(is_int($x));//outpus bool(true)
+
+      Echo "<br>";
+
+// Check again... 
+  $y = 59.85;
+    var_dump(is_int($y));//outpus bool(false)
+?>  
+
+</body>
+</html>
+~~~
+***
+
+## Flotantes en PHP(Float)
+Un número flotante o float es un número con un punto decimal o un número de forma exponencial.
+
+2.0, 256.4, 10.358, 7.64E+5, 5.56E-5 son todas flotantes.
+
+El tipo de datos flotantes normalmete puede almacenar un valor de hasta 1,7976931348623E+308 (depende de la plataforma) y tener una precisión máxima de 14 dígitos.
+
+PHP tiene las siguientes constantes predefinidas para flotantes(desde PHP v.7.2):
+  - PHP_FLOAT_MAX: nos permite usar el número flotante mas grande admitido
+  - PHP_FLOAT_MIN: nos permite usar el número flotante mas pequeño admitido
+  - PHP_FLOAT_DIG: la cantidad de dígitos decimales que se pueden redondear a un flotante y viceversa sin pérdida de precisión
+  - PHP_FLOAT_EPSILON-El número positivo represntable más peequeño x, de modo que x + 1.0 ! = 1.0
+
+PHP tiene las siguientes funciones para verifica si el tipo de una variable es flotante:
+  - es_flotante()
+  - is_double()- alias de is_float()
+
+_Ejemplo:_ 
+
+Compruebe si el tipo de una variable es flotante:
+~~~
+<!DOCTYPE html>
+  <html>
+    <body>
+
+<?php
+// Check if the type of a variable is float 
+  $x = 10.365;
+    var_dump(is_float($x));//outpus bool(true)
+
+Echo "<br>"
+
+//check again..
+  $y = 10000;
+    var_dump(is_float($y));//outpus bool(false)
+
+?>  
+
+</body>
+</html>
+~~~
+
 </deteils>
 
 <deteils>
