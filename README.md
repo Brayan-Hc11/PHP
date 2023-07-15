@@ -1,7 +1,7 @@
 <div align="center">
   <img align="center" src="https://github.com/Thomas-Boi/devicon/blob/master/icons/php/php-original.svg" height ="100px"/>
   
-  # Ruta de aprendiaje PHP 
+  # Ruta de aprendizaje PHP 
 </div>
 
 <details>
