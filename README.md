@@ -939,6 +939,54 @@ Echo "<br>"
 </html>
 ~~~
 
+***
+## Infinito en PHP
+
+***
+Un valor numeérico mayor que PHP_FLOAT_MAX se considera un valor infinito.
+
+PHP tiene las siguientes funciones para verificar si un valor numeríco es finito o infinito:
+
+- es_finito()
+- es_infinito()
+
+Sin embargo, la función de PHP "var_dump()" nos devuelve el tipo de datos y el valor:
+
+_Ejemplo:_
+
+Comprueba si un valor numérico es finito o infinito: 
+~~~
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Check if a numeric value is finite or infinite 
+$x = 1.9e411;
+var_dump($x);
+?>  
+
+</body>
+</html>
+~~~
+***
+
+## PHP NaN
+***
+
+NaN se usa para decir que no es un número. NaN se usa para las operaciones matemáticas imposibles.
+
+PHP tiene las siguientes funciones para verificar si un valor no es un número:
+
+-es_NaN()
+
+Sin embargo la función en PHP "var_dump()" nos devolverá el tipo de dato y el valor:
+
+_Ejemplo:_
+
+El cálculo no válido devolverá un valor NaN:
+
+
 </details>
 
 <details>
